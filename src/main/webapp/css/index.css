@@ -1,0 +1,72 @@
+.tituloSeccion{
+    margin: 0 auto;
+    background-color: dodgerblue;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+}
+
+#seccionesContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.seccion{
+    margin: 10px;
+}
+
+#nuevaBtn{
+    background-color: dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+}
+
+.delBtn{
+    width:2px;
+    height:2px;
+    background-color:red;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+.nextButton{
+    width:2px;
+    height:2px;
+    background-color: deepskyblue;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+.beforeButton{
+    width:2px;
+    height:2px;
+    background-color: gold;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+}
+
+.tareaComponent{
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+    position: relative;
+    margin: 5px auto;
+    border: gray 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
